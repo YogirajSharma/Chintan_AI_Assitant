@@ -45,6 +45,10 @@ $(document).ready(function () { // Ensures the script runs only after the docume
     
              // 🟢 Auto-scroll to the latest message
             chatBox.scrollTop = chatBox.scrollHeight;
+
+            // Hide Siri wave after message is added
+            $("#SiriWave").attr("hidden", true);
+            $("#Oval").attr("hidden", false);
         }
             }
 });

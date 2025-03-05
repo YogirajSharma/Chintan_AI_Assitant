@@ -1,5 +1,5 @@
 import time # Importing time module for delays
-import pyttsx3 # Importing time module for delays(pip install pyttsx3)
+import pyttsx3 # Importing Python-based text-to-speech conversion library that works offline(pip install pyttsx3)
 import speech_recognition as sr # Importing speech_recognition for voice input(pip install SpeechRecognition)
 import eel # Importing eel for Python-JavaScript interaction
 
